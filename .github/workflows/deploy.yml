@@ -11,10 +11,9 @@ jobs:
 
     steps:
       - name: Checkout repository
-      - uses: actions/checkout@v4
-    	with:
-	submodules: false
-
+        uses: actions/checkout@v4
+        with:
+          submodules: false
 
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
